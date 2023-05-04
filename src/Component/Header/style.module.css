@@ -24,17 +24,17 @@
 .sub_right h4{color:black;font-size: var(--h4-1920);}
 .sub_right h4:hover{color: yellow; transition: 400ms ease-in;}
 
-button{
-    color: black;
+.but{
+    color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.055);
     width: 150px;
     height:40px;
     border:solid 0.5px rgba(255, 255, 255, 0.681);
     border-radius: 20px;
 }
-button :hover{
+.but:hover{
     border-left:rgba(255, 255, 255, 0) ;
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(248, 161, 0);
 }
 
 @media (max-width:1920px){
