@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pro-League-Network/static/css/main.fc84e81d.css",
-    "main.js": "/Pro-League-Network/static/js/main.b541df33.js",
+    "main.css": "/Pro-League-Network/static/css/main.95e37b4e.css",
+    "main.js": "/Pro-League-Network/static/js/main.698fbaff.js",
     "index.html": "/Pro-League-Network/index.html",
-    "main.fc84e81d.css.map": "/Pro-League-Network/static/css/main.fc84e81d.css.map",
-    "main.b541df33.js.map": "/Pro-League-Network/static/js/main.b541df33.js.map"
+    "main.95e37b4e.css.map": "/Pro-League-Network/static/css/main.95e37b4e.css.map",
+    "main.698fbaff.js.map": "/Pro-League-Network/static/js/main.698fbaff.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc84e81d.css",
-    "static/js/main.b541df33.js"
+    "static/css/main.95e37b4e.css",
+    "static/js/main.698fbaff.js"
   ]
 }
