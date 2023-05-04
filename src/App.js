@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Style from './Component/Style.module.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { connect } from "react-redux";
+import HeaderContainer from "./Component/Header/HeaderContainer";
+import BodyContainer from "./Component/Body/BodyContainer";
+import BottomContainer from "./Component/Bottom/BottomContainer";
+
+
+
+
+class App extends React.Component {
+
+  render() {
+
+    return (
+      <div >
+        <HeaderContainer/>
+        <BodyContainer/>
+        <BottomContainer/>
+      </div>
+    );
+  }
 }
 
-export default App;
+let mapStateToProps = (state) => {
+  return {};
+};
+export default connect(mapStateToProps, {})(App);
