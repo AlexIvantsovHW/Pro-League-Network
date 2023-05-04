@@ -1,0 +1,124 @@
+
+:root {
+ /*________Container_______*/
+ --Cont-W-1920:1920px;
+ --Cont-W-1600:1600px;
+ --Cont-W-1280:1280px;
+ --Cont-W-1024:1024px;
+ --Cont-W-768:768px;
+ --Cont-W-480:480px;
+ --Cont-W-320:320px;
+
+    /*________Logo_______*/
+    --logo-H-1920:100px;
+    --logo-W-1920:150px;
+
+    --logo-H-1600:100px;
+    --logo-W-1600:150px;
+
+    --logo-H-1280:100px;
+    --logo-W-1280:150px;
+
+    --logo-H-1024:50px;
+    --logo-W-1024:10px;
+
+    --logo-H-768:70px;
+    --logo-W-768:120px;
+
+    --logo-H-480:50px;
+    --logo-W-480:110px;
+
+    --logo-H-320:30px;
+    --logo-W-320:100px;
+
+        /*Block 4 IMG*/
+        --B4-H-1920:450px;
+        --B4-W-1920:450px;
+    
+        --B4-H-1600:350px;
+        --B4-W-1600:350px;
+    
+        --B4-H-1280:250px;
+        --B4-W-1280:250px;
+    
+        --B4-H-1024:200px;
+        --B4-W-1024:200px;
+    
+        --B4-H-768:150px;
+        --B4-W-768:150px;
+    
+        --B4-H-480:120px;
+        --B4-W-480:120px;
+    
+        --B4-H-320:100px;
+        --B4-W-320:100px;
+  /*Стили текста*/
+    /*Размер*/
+  /*H1*/
+  --h1-1920: 40px;
+  --h1-1600: 35px;
+  --h1-1280: 30px;
+  --h1-1024: 25px;
+  --h1-768: 20px;
+  --h1-480: 15px;
+  --h1-320: 14px;
+
+    /*H2*/
+    --h2-1920: 35px;
+    --h2-1600: 30px;
+    --h2-1280: 25px;
+    --h2-1024: 20px;
+    --h2-768: 15px;
+    --h2-480: 10px;
+    --h2-320: 12px;
+
+        /*H3*/
+        --h3-1920: 30px;
+        --h3-1600: 25px;
+        --h3-1280: 20px;
+        --h3-1024: 15px;
+        --h3-768: 10px;
+        --h3-480: 8px;
+        --h3-320: 10px;
+
+    /*H4*/
+    --h4-1920: 20px;
+    --h4-1600: 15px;
+    --h4-1280: 14px;
+    --h4-1024: 12px;
+    --h4-768: 10px;
+    --h4-480: 8px;
+    --h4-320: 6px;
+
+    /*p*/
+    --p-1920: 20px;
+    --p-1600: 15px;
+    --p-1280: 14px;
+    --p-1024: 11px;
+    --p-768: 10px;
+    --p-480: 8px;
+    --p-320: 6px;
+
+    /*Стили тела*/
+    /*Header*/
+    --Header-height-1280: 100px;
+    /*Body*/
+    --body-height-1920: 12px;
+    --body-height-1600: 12px;
+    --body-height-1280: calc(100vh-var(--Header-height-1280)-var(--Bottom-height-1280));
+    --body-height-1024: 11px;
+    --body-height-768: 11px;
+    --body-height-480: 9px;
+    --body-height-320: 9px;
+    /*Bottom*/
+    --Bottom-height-1280: 100px;
+
+  }
+
+@media (max-width:1920px){body{width:var(--Cont-W-1920)}}
+@media (max-width:1600px){body{width:var(--Cont-W-1600)}}
+@media (max-width:1280px){body{width:var(--Cont-W-1280)}}
+@media (max-width:1024px){body{width:var(--Cont-W-1024)}}
+@media (max-width:768px){body{width:var(--Cont-W-768)}}
+@media (max-width:480px){body{width:var(--Cont-W-480)}}
+@media (max-width:320px){body{width:var(--Cont-W-320)}}
